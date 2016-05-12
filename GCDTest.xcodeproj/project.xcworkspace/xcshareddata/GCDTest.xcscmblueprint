@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "26cde2d3-2c82-4096-b4cb-dd63f9871849++1493",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "26cde2d3-2c82-4096-b4cb-dd63f9871849++1493" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "26cde2d3-2c82-4096-b4cb-dd63f9871849++1493" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "994FA71F-FFEC-4E48-9FA7-C482787A3FFB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "26cde2d3-2c82-4096-b4cb-dd63f9871849++1493" : "GCDTest\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GCDTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GCDTest.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/172.1.1.200:8088\/svn\/club",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "26cde2d3-2c82-4096-b4cb-dd63f9871849++1493"
+    }
+  ]
+}
