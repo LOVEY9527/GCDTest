@@ -30,9 +30,9 @@
            NSLog(@"privateQueue"); 
         });
     });
-    dispatch_async(globalQueue, ^{
-        NSLog(@"dispatch_async");
-    });
+//    dispatch_async(globalQueue, ^{
+//        NSLog(@"dispatch_async");
+//    });
     
     NSLog(@"456");
 }
