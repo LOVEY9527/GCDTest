@@ -23,13 +23,13 @@
 //        NSLog(@"dispatch_async");
 //    });
     
-//    dispatch_queue_t privateQueue = dispatch_queue_create("串行", nil);
-//    dispatch_sync(privateQueue, ^{
-//        
-//        dispatch_sync(dispatch_get_main_queue(), ^{
-//           NSLog(@"privateQueue"); 
-//        });
-//    });
+    dispatch_queue_t privateQueue = dispatch_queue_create("串行", nil);
+    dispatch_sync(privateQueue, ^{
+        
+        dispatch_sync(dispatch_get_main_queue(), ^{
+           NSLog(@"privateQueue"); 
+        });
+    });
 //    dispatch_async(globalQueue, ^{
 //        NSLog(@"dispatch_async");
 //    });
