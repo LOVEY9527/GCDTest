@@ -19,9 +19,9 @@
     NSLog(@"123");
     
     dispatch_queue_t globalQueue = dispatch_get_global_queue(QOS_CLASS_DEFAULT, 0);
-//    dispatch_sync(globalQueue, ^{
-//        NSLog(@"dispatch_async");
-//    });
+    dispatch_sync(globalQueue, ^{
+        NSLog(@"dispatch_async");
+    });
     
     dispatch_queue_t privateQueue = dispatch_queue_create("串行", nil);
     dispatch_sync(privateQueue, ^{
